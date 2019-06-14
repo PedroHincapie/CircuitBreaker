@@ -1,1 +1,1 @@
-INSERT INTO usuarios (nombre_completo, numero_peliculas) VALUES ('Pedro Jesus Hincapie Garcia', 0);
+INSERT INTO usuario (nombreCompleto, cantidadPeliculas) VALUES ('Pedro Jesus Hincapie Garcia', 0);
