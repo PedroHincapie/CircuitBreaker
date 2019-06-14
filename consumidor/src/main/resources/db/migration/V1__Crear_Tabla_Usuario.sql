@@ -1,6 +1,6 @@
-create table usuarios
+create table usuario
 (
   id              int auto_increment  primary key,
-  nombre_completo varchar(100) not null,
-  numero_peliculas int not null  
+  nombreCompleto varchar(100) not null,
+  cantidadPeliculas int not null  
 );
