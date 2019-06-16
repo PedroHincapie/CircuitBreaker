@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import co.com.ceiba.consumidor.repository.RepositorioUsuario;
 
 @RestController
-@RequestMapping(path="/PoC")
+@RequestMapping(path="/usuario")
 public class ControladorUsuario {
 
 	private RepositorioUsuario repositorioUsuario;
