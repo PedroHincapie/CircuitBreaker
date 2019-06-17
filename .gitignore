@@ -1,2 +1,4 @@
 
 *.class
+
+consumidor/bin/main/application\.yml
