@@ -1,1 +1,1 @@
-INSERT INTO video (nombrePelicula, idUsuario) VALUES ('Los Avenger',1);
+INSERT INTO video (nombre, usuario) VALUES ('Los Avenger',1);
