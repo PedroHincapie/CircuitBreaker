@@ -5,5 +5,5 @@ import lombok.Data;
 @Data
 public class ComandoVideo {
 	private String nombrePelicula;
-	private int idUsuario; 
+	private Long idUsuario; 
 }
