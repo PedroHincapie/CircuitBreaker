@@ -2,3 +2,9 @@
 *.class
 
 consumidor/bin/main/application\.yml
+
+expositor/bin/main/application\.yml
+
+expositor/bin/main/db/migration/V1__Crear_Tabla_Video\.sql
+
+expositor/bin/main/db/migration/V2__Poblar_Video\.sql
