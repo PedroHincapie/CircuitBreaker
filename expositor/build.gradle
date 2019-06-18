@@ -60,4 +60,4 @@ task moveBootExplodedLib() {
         ant.move(file: "${buildDir}/docker/app/BOOT-INF/lib", toFile: "${buildDir}/docker/lib")
     }
 }
-moveBootExplodedLib.dependsOn bootJar, unzipBoot 
+moveBootExplodedLib.dependsOn unzipBoot 
