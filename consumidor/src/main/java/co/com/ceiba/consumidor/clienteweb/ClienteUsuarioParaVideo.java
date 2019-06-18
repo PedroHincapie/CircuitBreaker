@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 @Service
 public class ClienteUsuarioParaVideo {
 
-	private WebClient cliente = WebClient.create("http://localhost:8083");
+	private WebClient cliente = WebClient.create("http://video:8083");
 
 	public  Mono<Integer> consultarVideos(Integer idUsuario) {
 		return cliente.get()
