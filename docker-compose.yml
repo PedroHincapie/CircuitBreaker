@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  video:
+    build:
+      context:    expositor/ . 
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+    depends_on: 
+     - usuario 
+
+  usuario:
+    build:
+      context:    consumidor/ .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
