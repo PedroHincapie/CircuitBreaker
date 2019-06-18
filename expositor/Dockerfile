@@ -1,8 +1,8 @@
 FROM openjdk:8-jre-alpine
 
-VOLUME /sve
+VOLUME /video
 
-RUN adduser -D sve_user -s /bin/sh
+RUN adduser -D video_user -s /bin/sh
 
 WORKDIR /app
 
