@@ -1,1 +1,0 @@
-INSERT INTO usuario (nombreCompleto, cantidadPeliculas) VALUES ('Pedro Jesus Hincapie Garcia', 0);

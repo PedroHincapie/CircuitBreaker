@@ -8,3 +8,7 @@ expositor/bin/main/application\.yml
 expositor/bin/main/db/migration/V1__Crear_Tabla_Video\.sql
 
 expositor/bin/main/db/migration/V2__Poblar_Video\.sql
+
+consumidor/bin/main/db/migration/V1__Crear_Tabla_Usuario\.sql
+
+consumidor/bin/main/db/migration/V2__Poblar_Usuario\.sql
