@@ -34,7 +34,6 @@ public class ControladorVideo {
 	@PostMapping
 	public void crearVideo(@RequestBody ComandoVideo comandoVideo) {
 		Video entity = new Video(comandoVideo.getNombrePelicula(), comandoVideo.getIdUsuario());
-		entity = repositoryVideo.save(entity);
-		System.err.println(entity.getId());
+		repositoryVideo.save(entity);
 	}
 }
