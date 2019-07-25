@@ -3,9 +3,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://sve-dllo.ceiba.com.co/expone
-    username: svedllo
-    password: $v3Dll019**
+    url: jdbc:mysql://localhost:3306/expone
+    username: root
+    password: root
   jpa:
     hibernate:
       use-new-id-generator-mappings: false
