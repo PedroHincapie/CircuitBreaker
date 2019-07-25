@@ -12,3 +12,13 @@ expositor/bin/main/db/migration/V2__Poblar_Video\.sql
 consumidor/bin/main/db/migration/V1__Crear_Tabla_Usuario\.sql
 
 consumidor/bin/main/db/migration/V2__Poblar_Usuario\.sql
+
+\.settings/org\.eclipse\.buildship\.core\.prefs
+
+\.gradle/4\.8\.1/fileChanges/last-build\.bin
+
+\.gradle/4\.8\.1/fileHashes/fileHashes\.lock
+
+\.gradle/vcsWorkingDirs/gc\.properties
+
+\.project
